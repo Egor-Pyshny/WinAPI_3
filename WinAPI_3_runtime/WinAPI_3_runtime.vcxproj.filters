@@ -15,13 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\laba3\CreateAndUseLibRuntime\AppCode.cpp">
+    <ClCompile Include="Source_runtime.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Desktop\laba3\CreateAndUseLibRuntime\Lib.dll">
+    <ClCompile Include="DLL_runtime.cpp">
       <Filter>Исходные файлы</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>

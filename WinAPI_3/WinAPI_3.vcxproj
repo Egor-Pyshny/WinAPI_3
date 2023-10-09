@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\laba3\CreateAndUseLibLoadtime\AppCode.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\laba3\CreateAndUseLibLoadtime\LibCode.cpp" />
+    <ClCompile Include="DLL_loadtime.cpp" />
+    <ClCompile Include="Source_loadtime.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

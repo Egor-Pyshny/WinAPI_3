@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\laba3\CreateAndUseLibLoadtime\AppCode.cpp">
+    <ClCompile Include="Source_loadtime.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\laba3\CreateAndUseLibLoadtime\LibCode.cpp">
+    <ClCompile Include="DLL_loadtime.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
