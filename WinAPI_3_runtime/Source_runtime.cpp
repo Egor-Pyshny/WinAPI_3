@@ -5,8 +5,6 @@ using namespace std;
 
 typedef int (*Tadd)(int, int);
 typedef int (*Tsub)(int, int);
-typedef void (*PrintFunction)(string);
-typedef int (*YourFunctionType)(int);
 
 int main()
 {

@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DLL_runtime.cpp" />
     <ClCompile Include="Source_runtime.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

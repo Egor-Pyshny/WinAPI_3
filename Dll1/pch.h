@@ -8,7 +8,9 @@
 
 // Добавьте сюда заголовочные файлы для предварительной компиляции
 #include "framework.h"
+using namespace std;
 extern "C" __declspec(dllexport) int sub(int a, int b);
 extern "C" __declspec(dllexport) int add(int a, int b);
-extern "C" __declspec(dllexport) void pr();
+extern "C" __declspec(dllexport) void printHello();
+extern "C" __declspec(dllexport) void replace(string initial, string repl);
 #endif //PCH_H
