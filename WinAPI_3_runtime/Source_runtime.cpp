@@ -8,7 +8,7 @@ typedef int (*Tsub)(int, int);
 
 int main()
 {
-    HINSTANCE hDLL = LoadLibrary(L"C:/Users/Пользователь/source/repos/Egor-Pyshny/WinAPI_3/x64/Debug/DLL1.dll");
+    HINSTANCE hDLL = LoadLibrary(L"C:/Users/user/source/repos/Egor-Pyshny/WinAPI_3/x64/Debug/DLL1.dll");
 
     if (hDLL != NULL)
     {
@@ -20,19 +20,19 @@ int main()
             int resultAdd = add(5, 3);
             int resultSub = sub(8, 4);
 
-            cout << "Addition result: " << resultAdd << ";" << endl;
-            cout << "Subtraction result: " << resultSub << ";" << endl;
+            cout << "add = " << resultAdd << ";" << endl;
+            cout << "sub = " << resultSub << ";" << endl;
 
         }
         else
         {
-            cout << "Failed to get function pointers!" << endl;
+            cout << "Failed to get function" << endl;
         }
         FreeLibrary(hDLL);
     }
     else
     {
-        cout << "Failed to load DLL!" << endl;
+        cout << "Failed to load DLL" << endl;
     }
     return 0;
 }

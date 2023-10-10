@@ -45,7 +45,7 @@ int main()
     DWORD pid = GetProcName(szProcessName);
     HANDLE hRemoteProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, pid);
     LPVOID threadFunction = (LPVOID)GetProcAddress(GetModuleHandleA("kernel32.dll"), "LoadLibraryA");
-    string argument = "C:/Users/Пользователь/source/repos/Egor-Pyshny/WinAPI_3/x64/Debug/DLL1.dll";
+    string argument = "C:/Users/user/source/repos/Egor-Pyshny/WinAPI_3/x64/Debug/DLL1.dll";
     LPVOID argumentAddress = VirtualAllocEx(hRemoteProcess, NULL, argument.length() + 1, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
     WriteProcessMemory(hRemoteProcess, argumentAddress, argument.c_str(), argument.length() + 1, NULL);
     if (CreateRemoteThread(hRemoteProcess, NULL, 0, (LPTHREAD_START_ROUTINE)threadFunction, argumentAddress, 0, NULL))

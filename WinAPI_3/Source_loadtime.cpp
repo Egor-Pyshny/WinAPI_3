@@ -10,8 +10,8 @@ int main()
     int resultAdd = add(5, 3);
     int resultSub = sub(8, 4);
 
-    cout << "Addition result: " << resultAdd << ";" << endl;
-    cout << "Subtraction result: " << resultSub << ";" << endl;
+    cout << "add = " << resultAdd << ";" << endl;
+    cout << "sub = " << resultSub << ";" << endl;
 
     return 0;
 }

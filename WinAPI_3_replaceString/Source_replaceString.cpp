@@ -7,7 +7,7 @@ typedef void (*Treplace)(string, string);
 
 int main()
 {
-    HINSTANCE hDLL = LoadLibrary(L"C:/Users/Пользователь/source/repos/Egor-Pyshny/WinAPI_3/x64/Debug/DLL1.dll");
+    HINSTANCE hDLL = LoadLibrary(L"C:/Users/user/source/repos/Egor-Pyshny/WinAPI_3/x64/Debug/DLL1.dll");
 
     if (hDLL != NULL)
     {
